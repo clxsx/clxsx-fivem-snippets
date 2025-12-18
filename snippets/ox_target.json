@@ -24,5 +24,62 @@
             "   }",
             "})"
         ]
+    },
+    "Ox Target Sphere": {
+        "prefix": "target_spherezone",
+        "description": "Create a target spherezone using ox_target",
+        "body": [
+            "ox_target:addSphereZone({",
+            "    name = name,",
+            "    coords = coords,",
+            "    radius = radius,",
+            "    debug = debug,",
+            "    options = {",
+            "        {",
+            "           icon = 'fa-solid ',",
+            "           label = 'label',",
+            "           distance = distance,",
+            "           onSelect = function(data)",
+            "           -- code",
+            "           end,",
+            "           canInteract = function(entity, distance, coords, name, bone)",
+            "           --code",
+            "           end",
+            "        }",
+            "   }",
+            "})"
+        ]
+    },
+    "Ox Target Poly": {
+        "prefix": "target_polyzone",
+        "description": "Create a target polyzone using ox_target",
+        "body": [
+            "ox_target:addSphereZone({",
+            "    name = name,",
+            "    points = {},",
+            "    thickness = thickness,",
+            "    debug = debug,",
+            "    options = {",
+            "        {",
+            "           icon = 'fa-solid ',",
+            "           label = 'label',",
+            "           distance = distance,",
+            "           onSelect = function(data)",
+            "           -- code",
+            "           end,",
+            "           canInteract = function(entity, distance, coords, name, bone)",
+            "           --code",
+            "           end",
+            "        }",
+            "   }",
+            "})"
+        ]
+    },
+    "Ox Target RemoveZone": {
+        "prefix": "target_removezone",
+        "description": "Remove a target zone using ox_target",
+        "body": [
+            "ox_target:removeZone(id)"
+        ]
     }
 }
