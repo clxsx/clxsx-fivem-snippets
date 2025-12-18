@@ -1,5 +1,6 @@
 {
   "name": "clxsx-fivem-snippets",
+  "publisher": "clxsx",
   "displayName": "clxsx-fivem-snippets",
   "description": "My personal fivem lua snippets",
   "version": "0.0.1",
@@ -13,7 +14,7 @@
     "snippets": [
       {
         "language": "lua",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/ox_target.json"
       }
     ]
   }

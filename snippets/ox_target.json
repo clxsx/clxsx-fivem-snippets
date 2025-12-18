@@ -1,0 +1,28 @@
+{
+    "Ox Target BoxZone": {
+        "prefix": "target_boxzone",
+        "description": "Create a target boxzone using ox_target",
+        "body": [
+            "ox_target:addBoxZone({",
+            "   name = name,",
+            "   coords = coords,",
+            "   size = size,",
+            "   rotation = rotation,",
+            "   debug = debug,",
+            "   options = {",
+            "       {",
+            "           icon = 'fa-solid ',",
+            "           label = 'label'",
+            "           distance = distance,",
+            "           onSelect = function(data)",
+            "           -- code",
+            "           end,",
+            "           canInteract = function(entity, distance, coords, name, bone)",
+            "           --code",
+            "           end",
+            "       }",
+            "   }",
+            "})"
+        ]
+    }
+}
