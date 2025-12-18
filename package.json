@@ -3,6 +3,8 @@
   "publisher": "clxsx",
   "displayName": "clxsx-fivem-snippets",
   "description": "My personal fivem lua snippets",
+  "homepage": "https://github.com/clxsx/clxsx-fivem-snippets",
+  "icon": "assets/images/logo.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.107.0"
@@ -17,5 +19,9 @@
         "path": "./snippets/ox_target.json"
       }
     ]
-  }
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/clxsx/clxsx-fivem-snippets.git"
+	}
 }
